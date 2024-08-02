@@ -6,7 +6,21 @@ import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
 
+
+
+
+    
+    const formInitialDetails = {
+        firstName: '',
+        lastName: '',
+        email: '',
+        phone: '',
+        message: '',
+    };
+
+
     const [buttonText, setButtonText] = useState('Send');
+    const [formDetails, setFormDetails] = useState(formInitialDetails);
 
     const form = useRef();
     const sendEmail = (e) => {
