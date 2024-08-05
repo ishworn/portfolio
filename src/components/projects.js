@@ -2,7 +2,7 @@ import {Col ,Container , Tab ,Row } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCards";
 import Nav from 'react-bootstrap/Nav';
 import colorSharp2 from "../assets/img/color-sharp2.png"
-import projectImg1 from "../assets/img/project-img1.png"
+import projectImg1 from "../assets/img/fakenews.jpg"
 import projectImg2 from "../assets/img/project-img2.png"
 import projectImg3 from "../assets/img/project-img3.png"
 
@@ -12,8 +12,8 @@ export const Projects = () => {
 
     const projects = [
         {
-            title : "Business Startup",
-            description: "Design & Development",
+            title : "Fake News Detectation System",
+            description: "Flask is used to developed this system. We used RFA and Decision Tree to train the module.",
             imgUrl :projectImg1,
             link : "https://github.com/Edit-Enterprises/inventory",
         },
