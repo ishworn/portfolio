@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCards";
 import Nav from 'react-bootstrap/Nav';
 import colorSharp2 from "../assets/img/color-sharp2.png"
 import projectImg1 from "../assets/img/fakenews.jpg"
-import projectImg2 from "../assets/img/project-img2.png"
+import projectImg2 from "../assets/img/portfolio.png"
 import projectImg3 from "../assets/img/project-img3.png"
 
 
@@ -15,23 +15,23 @@ export const Projects = () => {
             title : "Fake News Detectation System",
             description: "Flask is used to developed this system. We used RFA and Decision Tree to train the module.",
             imgUrl :projectImg1,
-            link : "https://github.com/Edit-Enterprises/inventory",
+            link : "https://github.com/ishworn/FakeNewsDetectationSystem",
         },
         {
-            title : "Business Startup",
-            description: "Design & Development",
+            title : " My Portfolio",
+            description: "Using React i have developed simple website for my portfolio where you can see my details",
             imgUrl :projectImg2,
-            link : "https://github.com/ishworn/flask",
+            link : "https://github.com/ishworn/portfolio",
         },
         {
-            title : "Business Startup",
-            description: "Design & Development",
+            title : ".NET Project ",
+            description: "This project is done for my skills on api.I have done this project from Youtube ",
             imgUrl :projectImg3,
-            link : "https://github.com/Edit-Enterprises/inventory",
+            link : "https://github.com/ishworn/.NetProject",
         },
         {
-            title : "Business Startup",
-            description: "Design & Development",
+            title : "CCTV Project",
+            description: "This project is incompleted but in sometime i will completed it.Concept of this project is to developed the web app for live feed of camera. ",
             imgUrl :projectImg1,
             link : "https://github.com/Edit-Enterprises/inventory",
         },
