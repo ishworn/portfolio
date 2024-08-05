@@ -5,6 +5,10 @@ import colorSharp2 from "../assets/img/color-sharp2.png"
 import projectImg1 from "../assets/img/fakenews.jpg"
 import projectImg2 from "../assets/img/portfolio.png"
 import projectImg3 from "../assets/img/project-img3.png"
+import projectImg4 from "../assets/img/cctv.png"
+import projectImg5 from "../assets/img/inventory.png"
+
+
 
 
 
@@ -32,14 +36,14 @@ export const Projects = () => {
         {
             title : "CCTV Project",
             description: "This project is incompleted but in sometime i will completed it.Concept of this project is to developed the web app for live feed of camera. ",
-            imgUrl :projectImg1,
-            link : "https://github.com/Edit-Enterprises/inventory",
+            imgUrl :projectImg4,
+            link : "https://github.com/ishworn/flask",
         },
         {
-            title : "Business Startup",
-            description: "Design & Development",
-            imgUrl :projectImg3,
-            link : "https://github.com/Edit-Enterprises/inventory",
+            title : "Inventory Management System",
+            description: "This project is developed using PHP. It stored the product of a store and give overall overview of sells and buy base on time.",
+            imgUrl :projectImg5,
+            link : "https://github.com/ishworn/Inventory",
         }
 
 
