@@ -2,7 +2,7 @@ import {Container ,Row ,Col} from "react-bootstrap";
 import navIcon1 from '../assets/img/nav-icon1.svg'; 
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg'; 
-import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/logo111.png';
 
 export const Footer = () =>
 {
@@ -13,7 +13,7 @@ export const Footer = () =>
                 <Row className = "align-item-center" >
 
                     <Col sm ={6} >
-                    <img  src={logo} alt="Logo"  />
+                    <img  className="hhhh" src={logo} alt="Logo"  />
                     </Col>
                     <Col sm = {6} className="text-center text-sm-end" >
                     <div className='social-icon'>

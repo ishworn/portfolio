@@ -4,12 +4,13 @@ import {ArrowRightCircle} from "react-bootstrap-icons"
 import headerImg from '../assets/img/ishwor2.png'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import cv from '../assets/img/cv.pdf'
 
 export const Banner = () =>{
 
     const [loopNum ,setLoopNum] = useState(0);
     const [isDeleting , setIsDeleting] = useState(false);
-    const  toRotate = [ "Ishwor Nepal",  "Web Developer","Web Designer","UI/UX Designer"];
+    const  toRotate = [ "Ishwor Nepal",  "a Web Developer"," a Web Designer"," a UI/UX Designer"];
     const [text, setText] = useState('');
     const [delta ,setIsDelta] = useState(300 - Math.random()* 100);
     const period  = 2000;
@@ -65,7 +66,7 @@ export const Banner = () =>{
                    <p>Lorem Ipsum dcvdlfjgkvmlxcvdfmlvdvn
 
                    </p>
-                   <button onClick={()=> console.log("connect")} > Lets Connect<ArrowRightCircle size={25}/> </button>
+                   <button onClick={()=> window.open(cv)} > Lets Connect<ArrowRightCircle size={25}/> </button>
                    </div>
 }
                    </TrackVisibility>
