@@ -318,13 +318,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  
 }
+
+
+
 .skill-bx {
   background: #151515;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+  background-image: url('./assets/img/stars.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 .skill h2 {
 	font-size: 45px;
@@ -344,7 +353,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill-slider .item img {
   width: 50%;
+  border-radius: 100px;
+  height: 160px;
+
   margin: 0 auto 15px auto;
+
 }
 .background-image-left {
   top: 28%;
@@ -358,7 +371,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  /* background-color: black; */
+  background-image: url('./assets/img/banner-bg.png');
 }
 .project h2 {
 	font-size: 45px;
