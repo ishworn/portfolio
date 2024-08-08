@@ -7,11 +7,6 @@ import meter3 from "../assets/img/php.svg";
 import meter4 from "../assets/img/python.jpeg";
 import meter5 from "../assets/img/communication.jpg";
 
-
-
-
-
-
 import colorSharpe from "../assets/img/color-sharp.png";
 
 
@@ -42,7 +37,7 @@ export const Skills = ()=>{
                     <Col>
                     <div className='skill-bx'>
                         <h2>Skills</h2>
-                        <p>lorem Ipsum</p>
+                        <p>Adept in full-stack development with expertise in Python (Flask), PHP, and JavaScript (React.js). <br/> Skilled in utilizing tools like Git, Docker, and RESTful APIs to build efficient and scalable applications. </p>
                         <Carousel responsive={responsive} infinite = {true} className='skill-slider' >
                           <div className='item'>
                             <img src={meter1} alt='Image'/>
