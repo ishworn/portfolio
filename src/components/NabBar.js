@@ -57,7 +57,14 @@ export const NabBar  = () =>
                 <div className='social-icon'>
                     <a href='https://www.linkedin.com/in/ishwor-nepal-66100618b/' ><img src={navIcon1}  alt="Logo"/></a>
                     <a href='https://www.facebook.com/ishwor.nepal.739/' ><img src={navIcon2}  alt="Logo"/></a>
-                    <a href='#' ><img src={navIcon3}  alt="Logo"/></a>
+                    <a 
+                    
+
+                     href="https://mail.google.com/mail/?view=cm&fs=1&to=recipient@example.com&su=Subject&body=Email%20body" target="_blank"
+
+
+                    
+                    ><img src={navIcon3}  alt="Logo"/></a>
                     
                 </div>
                 <button className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
