@@ -6,6 +6,7 @@ import logo from '../assets/img/logo111.png';
 import navIcon1 from '../assets/img/nav-icon1.svg'; 
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/gmail.svg';   
+import cv from '../assets/img/CV2.pdf'
 // import imagee from '../assets/img/aa.png'
 
 
@@ -60,14 +61,14 @@ export const NabBar  = () =>
                     <a 
                     
 
-                     href="https://mail.google.com/mail/?view=cm&fs=1&to=recipient@example.com&su=Subject&body=Email%20body" target="_blank"
+                     href="https://mail.google.com/mail/?view=cm&fs=1&to=ishwornepal1234@gmail.com&su=Subject&body=Email%20body" target="_blank"
 
 
                     
                     ><img src={navIcon3}  alt="Logo"/></a>
                     
                 </div>
-                <button className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                <button className='vvd' onClick={() => window.open(cv)}><span>Let's Connect</span></button>
             </span>
             
         

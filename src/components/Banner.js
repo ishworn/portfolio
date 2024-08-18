@@ -63,7 +63,7 @@ export const Banner = () =>{
                     Welcome to my portfolio
                    </span>
                    <h1> {"Hi I'm "} <span className="wrap">{text}</span></h1>
-                   <p>Lorem Ipsum dcvdlfjgkvmlxcvdfmlvdvn
+                   <p>hyy
 
                    </p>
                    <button onClick={()=> window.open(cv)} > Lets Connect<ArrowRightCircle size={25}/> </button>
