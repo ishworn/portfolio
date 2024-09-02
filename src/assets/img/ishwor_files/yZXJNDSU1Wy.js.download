@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("PolarisDirectEphemeralMediaRoot.entrypoint",["JSResourceForInteraction"],(function(a,b,c,d,e,f,g){"use strict";a={getPreloadProps:function(a){return{extraProps:{attachmentFbid:a.routeParams.attachment_id,threadKey:a.routeParams.thread_id},queries:{}}},root:c("JSResourceForInteraction")("PolarisDirectEphemeralMediaRoot.react").__setRef("PolarisDirectEphemeralMediaRoot.entrypoint")};g["default"]=a}),98);

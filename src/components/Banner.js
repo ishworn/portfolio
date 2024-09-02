@@ -4,7 +4,7 @@ import {ArrowRightCircle} from "react-bootstrap-icons"
 import headerImg from '../assets/img/ishwor2.png'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import cv from '../assets/img/cv.pdf'
+import cv from '../assets/img/CV2.pdf'
 
 export const Banner = () =>{
 

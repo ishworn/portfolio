@@ -2,7 +2,7 @@ import {Col ,Container , Tab ,Row } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCards";
 import Nav from 'react-bootstrap/Nav';
 import colorSharp2 from "../assets/img/color-sharp2.png"
-import projectImg1 from "../assets/img/fakenews.jpg"
+import projectImg1 from "../assets/img/fake news .png"
 import projectImg2 from "../assets/img/portfolio.png"
 import projectImg3 from "../assets/img/project-img3.png"
 import projectImg4 from "../assets/img/cctv.png"
